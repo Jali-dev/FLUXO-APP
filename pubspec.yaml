@@ -1,0 +1,38 @@
+name: fluxo
+description: "Fluxo - Android Application"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_bloc: ^8.1.5
+  equatable: ^2.0.5
+
+  # Dependency Injection
+  get_it: ^7.7.0
+  injectable: ^2.4.1
+
+  # Routing
+  go_router: ^14.0.0
+
+  # UI/Icons
+  cupertino_icons: ^1.0.6
+  receive_sharing_intent_plus: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  
+  # Code Generation
+  build_runner: ^2.4.9
+  injectable_generator: ^2.6.1
+
+flutter:
+  uses-material-design: true
