@@ -1,6 +1,8 @@
-# fluxo
+# FLUXO-APP
 
-A new Flutter project.
+## Fluxo - Android Application
+
+A new Flutter project to download and play videos from shared links.
 
 ## Getting Started
 
